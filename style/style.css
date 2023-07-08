@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+/* nave related style */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* buttons style */
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 10px 26px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+
+.contract-button{
+    border-radius: 5px;
+    padding: 10px 26px;
+    background-color: #FFF8F3;
+    border: 1px solid #FD6E0A;;
+    color: #FD6E0A;;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* header realated style */
+header{
+    background-color:#FFF8F3;
+    
+    }
+    
+.banner{
+    padding: 30px 64px 120px 147px;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+
