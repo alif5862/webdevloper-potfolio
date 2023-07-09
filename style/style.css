@@ -52,10 +52,10 @@ nav a {
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
-    padding: 10px 26px;
+    padding: 10px 18px;
     border: none;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
 
 
@@ -68,7 +68,7 @@ nav a {
     background-color: #FFF8F3;
     border: 1px solid #FD6E0A;;
     color: #FD6E0A;;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -76,15 +76,116 @@ nav a {
 /* header realated style */
 header{
     background-color:#FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-size: 650px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
     
     }
     
 .banner{
-    padding: 30px 64px 120px 147px;
+    padding: 0px 23px 0px 30px;
     display: flex;
     align-items: center;
    
 }
 
+.banner-title{
+    margin-left: 52px;
+}
+
+.banner-title-text{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 9px;
+}
+
+/* main section */
+.section-title{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 27px;
+    font-weight: 700;
+    
+    
+}
+main{
+    max-width: 1000px;
+    margin:0px auto;
+}
+/* about section */
+.about{
+    padding: 130px;
+    margin:130px 0px;
+    border-radius: 10px;
+    background: #FFF8F3;
+}
+.about-info-contaier{
+display: flex;
+text-align: center;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.about-info{
+  
+}
+.info-titles{
+    color: var(--dark-03, #757575);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 20px;
+    padding-top: 30px;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* text-common classes */
+.paragraph-text{
+    color: var(--dark-03, #757575);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px 0px;
+    line-height: 20px;
+}
+
+.article-title{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
