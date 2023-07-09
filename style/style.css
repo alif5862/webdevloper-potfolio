@@ -169,7 +169,9 @@ main {
 
 .resume-section{
     margin-top: 121px;
+    margin-bottom: 137px;
 }
+
 
 
 .full-resume-section-education-skills{
@@ -190,12 +192,33 @@ color: var(--dark-02, #474747);
 
 
 
+/* footer section */
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    justify-content: space-around;
+}
+
+
+.footer-column{
+    padding: 48px 0px;
+    width: 37%;
+}
 
 
 
+input{
+    margin-bottom: 11px;
+    padding: 10px;
+    font-size: 13px;
+    width: 50%;
+}
 
-
-
+textarea{
+    font-size: 13px;
+    margin-bottom: 9px;
+    padding: 10px;
+}
 
 
 
@@ -209,7 +232,7 @@ color: var(--dark-02, #474747);
 .paragraph-text {
     color: var(--dark-03, #757575);
     font-size: 13px;
-    font-style: normal;
+    font-family: monospace;
     font-weight: 200;
     padding: 20px 0px;
     line-height: 20px;
