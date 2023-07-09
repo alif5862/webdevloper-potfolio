@@ -46,6 +46,7 @@ nav li {
 nav a {
     text-decoration: none;
     font-weight: 400;
+    color: var(--dark-02, #474747);
 }
 
 /* buttons style */
